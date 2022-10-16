@@ -1,0 +1,47 @@
+.redact-wrapper{
+    text-align: start;
+}
+.redact-wrapper form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.redact-string{
+    width: calc(25% - 8px);
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+}
+.redact-string input{
+    padding: 10px;
+}
+
+.redact-string input.invalid{
+    border: 2px solid red;
+}
+
+.redact-wrapper button{
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: white;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    transition: 0.15s ease-in-out;
+}
+
+.redact-wrapper button:hover{
+  background: rgb(245, 243, 243);
+
+}
+
+
+
+@media screen and (max-width: 690px){
+    .redact-string{
+    width: calc(50% - 5px);
+    }
+    
+}

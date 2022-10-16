@@ -1,0 +1,19 @@
+td{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+      padding: 15px 0px;
+    width: 25%;
+  }
+  td .menu-row{
+    visibility: hidden;
+    width: 24px;
+    padding: 5px;
+  
+    border-radius: 10px;
+  }
+  tr:hover .menu-row{
+    visibility: inherit;
+  }
+  
